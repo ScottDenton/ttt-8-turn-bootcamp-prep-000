@@ -37,7 +37,11 @@ def turn
   puts "Please enter 1-9:"
   user_input = gets.strip
   input_to_index(user_input)
-  valid_move(board, converted_input)
+  if valid_move(board, converted_input) == FALSE
+    puts "Please pick another position"
+  else 
+    
+  end
   
 end
 
