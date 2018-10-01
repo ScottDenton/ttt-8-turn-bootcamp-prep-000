@@ -40,7 +40,7 @@ def turn
   if valid_move(board, converted_input) == FALSE
     puts "Please pick another position"
   else 
-    
+    move (board, converted_input, token)
   end
   
 end
