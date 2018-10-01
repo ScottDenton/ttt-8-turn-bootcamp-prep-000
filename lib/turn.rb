@@ -24,12 +24,15 @@ def position_taken?(board, index)
   end
 end
 
-
-def move (board, index, token = "X")
-  input_to_index = index.to_i
-  board[input_to_index] = token
-  
-  
+def input_to_index (user_input)
+  converted_input = user_input.to_i - 1
 end
+
+
+def move (board, converted_input, token = "X")
+  board[converted_input] = token
+  end
+  
+
 
 
