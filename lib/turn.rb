@@ -35,6 +35,7 @@ def move(board, converted_input, token = "X")
   
 def turn 
   puts "Please enter 1-9:"
+  user_input = gets.strip
   
 end
 
