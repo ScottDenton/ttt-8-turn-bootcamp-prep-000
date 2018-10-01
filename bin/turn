@@ -7,8 +7,3 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "welcome to Tic Tac Toe!"
 display_board(board)
 
-puts "Player 1 where would you like to go"
-position = gets.strip
-
-move(board, position, "X")
-display_board(board)
