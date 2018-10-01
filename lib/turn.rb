@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def valid_move? (board, index)
-  if index.to_i >= 0 && index.to_i < 9
+  if index >= 0 && index < 9
     if !position_taken? 
     TRUE
   else  
