@@ -6,9 +6,9 @@ def display_board(board)
   puts "   |   |   "
 end
 
-def valid_move? (board, index)
+def valid_move?(board, index)
   if index >= 0 && index < 9
-    if !position_taken? 
+    if !position_taken?(board, index) 
     TRUE
   else  
     FALSE
